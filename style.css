@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box {
+    background: #fff;
+    padding: 30px;
+    width:400px;
+    height:500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    margin:0px;
+    align-items: left;
+    position: absolute;
+
+    width:10px;
+    top:0;
+    left:0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align:left;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-box {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius:40px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #0a66c2;
+    text-decoration: none;
+
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    background: #0a66c2;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.login-btn:hover {
+    background: #004182;
+}
+
+.join-now {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.join-now a {
+    color: #0a66c2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.join-now a:hover {
+    text-decoration: underline;
+}
+{
+round-color:#b1bfbe;
+}
